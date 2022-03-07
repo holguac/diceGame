@@ -1,32 +1,40 @@
 
+@font-face {
+	font-family: din;
+	src: url(Fonts/DIN2014-ExtraLight.ttf);
+}
+
 * {
 	box-sizing: border-box;
+	font-family: din;
 }
 
 body {
-	color: black;
-	background-color: #D1EFB5;
-	font-family: Arial, Helvetica, sans-serif;
+	color: #474044;
+	background: linear-gradient(to right, #D1EFB5 0%, #D1EFB5 50%, pink 50%, pink 100%) ;
+	/* font-family: Arial, Helvetica, sans-serif; */
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	height: 95vh;
+	height: 100vh;
 	transition: 0.25s;
 }
 
 .header {
-	width: 80%;
-	padding-bottom: 40px;
+	/* width: 80%; */
+	font-size: 50px;
+	/* padding-top: 20px; */
 }
 
-.score-container {
-	background-color: #D1EFB5;
-	border-radius: 10px;
+.scoreContainer {
+	background-color: transparent;
+	font-size: 50px;
+	/* border-radius: 10px;
 	width: 250px;
-	padding: 15px;
-	margin: 0px;
+	padding: 30px;
+	margin: 0px; */
 }
 
 #scorePlayer1 {
@@ -38,18 +46,19 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	height: 40%;
+	font-size: 40px;
+	/* height: 40%; */
 }
 
 #rollText1 {
-	font-size: 22px;
+	font-size: 50px;
 }
 
-.image-container {
+.imageContainer {
 	display: none;
-	border-radius: 90px;
-	padding: 15px;
-	width: 250px;
+	padding: 100px;
+	width: 500px;
+	background: linear-gradient(to right, pink 0%, pink 50%, #D1EFB5 50%, #D1EFB5 100%);
 }
 
 #imagePlayer1 {
@@ -68,10 +77,10 @@ body {
 }
 
 button {
-	color: black;
-	background-color: #D1EFB5;
-	font-size: 18px;
-	font-family: Arial, Helvetica, sans-serif;
+	color: #474044;
+	background-color: transparent;
+	font-size: 50px;
+	/* font-family: Arial, Helvetica, sans-serif; */
 	letter-spacing: 1px;
 	border: none;
 	border-radius: 10px;
@@ -80,5 +89,5 @@ button {
 }
 
 button:hover {
-	background-color: #D1EFB5;
+	font-weight: bold;
 }
