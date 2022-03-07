@@ -12,25 +12,23 @@
 body {
 	color: #474044;
 	background: linear-gradient(to right, #D1EFB5 0%, #D1EFB5 50%, pink 50%, pink 100%) ;
-	/* font-family: Arial, Helvetica, sans-serif; */
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	height: 100vh;
-	transition: 0.25s;
+	height: 85vh;
+	/* transition: 0.25s; */
 }
 
 .header {
-	/* width: 80%; */
-	font-size: 50px;
-	/* padding-top: 20px; */
+	font-size: 20px;
+	padding-top: 50px;
 }
 
 .scoreContainer {
 	background-color: transparent;
-	font-size: 50px;
+	font-size: 30px;
 	/* border-radius: 10px;
 	width: 250px;
 	padding: 30px;
@@ -51,13 +49,13 @@ body {
 }
 
 #rollText1 {
-	font-size: 50px;
+	font-size: 25px;
 }
 
 .imageContainer {
 	display: none;
-	padding: 100px;
-	width: 500px;
+	padding: 50px;
+	width: 250px;
 	background: linear-gradient(to right, pink 0%, pink 50%, #D1EFB5 50%, #D1EFB5 100%);
 }
 
@@ -79,7 +77,7 @@ body {
 button {
 	color: #474044;
 	background-color: transparent;
-	font-size: 50px;
+	font-size: 30px;
 	/* font-family: Arial, Helvetica, sans-serif; */
 	letter-spacing: 1px;
 	border: none;
@@ -90,4 +88,5 @@ button {
 
 button:hover {
 	font-weight: bold;
+	font-style: italic;
 }
